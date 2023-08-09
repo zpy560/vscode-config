@@ -6,7 +6,7 @@ D:\mingw-w64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin
 D:\mingw-w64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin
 ## 3 注意配置tasks.json文件command
 "command": "D:\\mingw-w64\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",此处只能设置成g++.exe
-## 4 配置launch.json文件miDebuggerPath 
+## 4 配置launch.json文件miDebuggerPath , 可以不用设置launch.json文件 ，如果没有报错，能直接运行的话
 "miDebuggerPath": "D:\\mingw-w64\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",设置成gdb.exe或和c_cpp_properties.json文件compilerPath匹配
 ## 5 配置c_cpp_properties.json文件compilerPath
 "compilerPath": "D:/mingw-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe",此处可以依据配置设置g++.exe,gcc.exe,cpp.exe;
